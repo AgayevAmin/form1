@@ -1,0 +1,85 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fbfbfb
+}
+
+.container{
+    background-color: white;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(192, 191, 191, 0.7);
+}
+
+
+
+
+.btnregister{
+    background-color: #FFF;
+    border: none;
+    font-size: 15px;
+    padding: 10px 0;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #ef498f;
+}
+.btnlog{
+    background-color: #FFF;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+
+
+
+.inpt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+input:focus{
+    border: 1px solid #cc2b6e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(156, 32, 84, 0.7);
+}
+.inpts input{
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.form-btn{
+    width: 100%;
+    border: none;
+    color: #fff;
+    background-color: #a5245a;
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.end{
+    font-size: 10px;
+    text-align: center;
+    width: 240px;
+    margin-left: 60px;
+    margin-top: 42px;
+}
+.errorMessage{
+    color: red;
+}
